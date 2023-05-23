@@ -8,6 +8,7 @@ var strArray = ["I", "am", "an", "arraY", "oF", "StriNgs"];
     // Store each word in a varaible
     word = strArray[i];
     // Make each word lowercase
+    var lowerCasedWord = word.toLowerCase();
     // Print each word
-    console.log(word.toLowerCase());
+    console.log(lowerCasedWord);
     }
