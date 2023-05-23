@@ -7,8 +7,8 @@ function deesser(string) {
     if (string.includes("s")) {
         // Remove all instances of the letter s
         var newString = string.replaceAll("s", "");
+        // Return string
         return newString;
-    }
-        
+    }      
 }
 console.log(deesser("abase"))
