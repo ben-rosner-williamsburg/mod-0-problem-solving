@@ -1,3 +1,6 @@
+// Overall goal: Create a function that returns a string with all instances of "s" removed
+// Input: String
+// Output: String
 // Create a function that accepts a string as a parameter
 function deesser(string) {
 // Check if the string has a letter s in it
